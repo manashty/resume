@@ -1,0 +1,194 @@
+%-------------------------
+% Resume in Latex
+% Author : Alireza Manashty
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{
+  \item\small{
+    \textbf{#1}{: #2 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  CV STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING-----------------
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+  \textbf{\href{http://sourabhbajaj.com/}{\Large Alireza Manashty}} & \href{mailto:a.r.manashty@gmail.com}{a.r.manashty@gmail.com}\\
+Lead Data Scientist &  \href{http://linkedin/in/manashty/}{linkedin.com/in/manashty}\\
+  Canada & (506) 898-2227 \\
+
+\end{tabular*}
+
+
+%-----------EDUCATION-----------------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+          {Ph.D. in Computer Science;  University of New Brunswick}{2014 -- 2018}
+      {Predictive Analytics in Health Monitoring (Thesis); GPA 4.1/4.3}{NB, Canada}
+      \resumeItemListStart
+        \resumeItem{Contributions}
+          {Mapped years of multivariate sporadic health data into 32 elements for anomaly forecasting by developing a mathematical model. Enabled human fall forecasting upto 15s before the fall using LSTM.}
+      \resumeItemListEnd
+%            {University of New Brunswick}{NB, Canada}
+
+    \resumeSubheading
+          {M.Sc. in Computer Engineering (AI);  Shahrood University of Technology}{2010 -- 2012}
+      {Sign Language Recognition using RGB-D cameras (Thesis); GPA 3.7/4 (Rank 1/20)}{}
+            \resumeItemListStart
+        \resumeItem{Coursework}
+          {Machine Learning; Statistical Pattern Recognition; Computer Vision; Neural Networks; Fuzzy; AI}
+      \resumeItemListEnd
+
+          \resumeSubheading
+          {B.Sc. in Software Engineering;  Razi University}{2006 -- 2010}
+      {Smart House Remote Monitoring System (Thesis); GPA 3.7/4 (Rank 3/61)}{}
+
+%    \resumeSubheading
+ %     {Birla Institute of Technology and Science}{Pilani, India}
+  %    {Bachelor of Engineering in Electrical and Electronics;  GPA: 3.66 (9.15/10.0)}{Aug. 2008 -- July. 2012}
+  \resumeSubHeadingListEnd
+
+
+%-----------EXPERIENCE-----------------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+          {Data Scientist}{June 2018 - Present}
+      {Department of Health, Government of New Brunswick}{Fredericton, Canada}
+      \resumeItemListStart
+                \resumeItem{Prediction}
+          {Forecasting physician retirements 5 years in-advance using machine learning techniques.}
+        \resumeItem{NB Health Data}
+          {Converting 10 years of diagnosis free-text to ICD-10 code using NLP and Deep Learning.}
+
+%        \resumeItem{Apache Beam}
+%          {Apache Beam is a unified model for defining both batch and streaming data-parallel processing pipelines, as well as a set of language-specific SDKs for constructing pipelines and runners.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+          {Lead Data Scientist}{June 2018 - Present}
+      {IPSNP Computing Inc.}{Saint John, Canada}
+            \resumeItemListStart
+          \resumeItem{Prediction}
+          {Forecasting hospital admission and bed requirements for the largest emergency department in NB.}
+        \resumeItem{Forecasting}
+          {Predicting workers back-to-work probability upon admission for WorkSafeNB}
+      \resumeItemListEnd
+    \resumeSubheading
+      {Data Scientist}{Feb 2018 - June 2018}
+      {CGS (Computer Generated Solutions) Canada}{Saint John, Canada}
+      \resumeItemListStart
+        \resumeItem{Dell EMC Data Science Train the Trainer (TTT) Instructor}
+          {Trained the Dell EMC's trainers for Data Science \& Big Data Analytics v2 course using +500 slides and 12 labs over 5 days (40 hours). Reviewed and updated the learning materials and labs. Topics included statistical and analytical theories \& big data tools.}
+        \resumeItem{Virtual Big Data Lab development}
+          {Created/Tested/Deployed the lab environment for Dell EMC DSBDAv2 course using VMware ESXi server for Hadoop, Spark, R Server, and Greenplum database (4 virtual machines).}
+      \resumeItemListEnd
+
+    \resumeSubheading
+	  {University Instructor, Research, and Teaching Assistant}{Jan 2014 - June 2018}
+      {University of New Brunswick}{New Brunswick, Canada}
+      
+%      {Research and Teaching Assistant}{Jan 2012 - Dec 2013}
+%      {Georgia Institute of Technology}{Atlanta, GA}
+
+      \resumeItemListStart
+        \resumeItem{Lecturer and Lab Instructor}
+          {Taught 16 Credits \& 8 Lab hours for over 150 undergrad and graduate students.} \resumeItem{Courses}{ Database Management Systems II | Operating Systems I | Computer Networking | Systems Software Development | C++ for Java Programmers | Honour's Project | Techincal Report}
+                  \resumeItem{Graduate Research/Teaching Assistant}{Conducting research in Health Preditcive Analytics @ Fall Lab}
+         \resumeItem{Diploma of University Teaching}
+          {Passed the teaching training and received the certificate @ UNB, Fall 2015}
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+
+%-----------PROJECTS-----------------
+\section{Projects}
+  \resumeSubHeadingListStart
+    \resumeSubItem{QuantSoftware Toolkit}
+      {Open source python library for financial data analysis and machine learning for finance.}
+    \resumeSubItem{Github Visualization}
+      {Data Visualization of Git Log data using D3 to analyze project trends over time.}
+    \resumeSubItem{Recommendation System}
+      {Music and Movie recommender systems using collaborative filtering on public datasets.}
+    \resumeSubItem{Mac Setup}
+      {Book that gives step by step instructions on setting up developer environment on Mac OS.}
+  \resumeSubHeadingListEnd
+
+%
+%--------PROGRAMMING SKILLS------------
+%\section{Programming Skills}
+%  \resumeSubHeadingListStart
+%    \item{
+%      \textbf{Languages}{: Scala, Python, Javascript, C++, SQL, Java}
+%      \hfill
+%      \textbf{Technologies}{: AWS, Play, React, Kafka, GCE}
+%    }
+%  \resumeSubHeadingListEnd
+
+
+%-------------------------------------------
+\end{document}
