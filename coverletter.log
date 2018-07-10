@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.6.23)  9 JUL 2018 22:34
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.6.23)  9 JUL 2018 23:09
 entering extended mode
 **./coverletter.tex
 (coverletter.tex
@@ -428,13 +428,13 @@ r.aux) )
 Here is how much of TeX's memory you used:
  1344 strings out of 493305
  14095 string characters out of 3138874
- 67920 words of memory out of 3000000
+ 68920 words of memory out of 3000000
  4929 multiletter control sequences out of 15000+200000
  5339 words of font info for 22 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 27i,6n,24p,230b,136s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 27i,6n,24p,310b,136s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb>
-Output written on coverletter.pdf (1 page, 20248 bytes).
+Output written on coverletter.pdf (1 page, 22849 bytes).
 PDF statistics:
  10 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
